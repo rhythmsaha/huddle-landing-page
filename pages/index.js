@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Featured from "../components/Featured";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
@@ -16,9 +18,11 @@ export default function Home() {
             </Head>
 
             <Header />
-            <main>
-                <Hero />
+            <Hero />
+            <main className="max-w-lg lg:max-w-[1440px] w-10/12 lg:w-11/12 mx-auto my-10 font-open-sans">
+                <Featured />
             </main>
+            <Footer />
         </>
     );
 }

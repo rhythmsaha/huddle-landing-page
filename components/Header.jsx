@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <header className="p-4 lg:p-12 flex justify-between fixed top-0 w-full">
+        <header className="p-4 lg:p-12 flex justify-between absolute top-0 w-full">
             <Image
                 src="/images/logo.svg"
                 alt=""

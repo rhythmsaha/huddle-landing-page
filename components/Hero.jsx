@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Hero = () => {
     return (
-        <section className="pt-32 pb-10 px-6 lg:px-0 bg-hero-mobile sm:bg-hero-desktop bg-cover bg-top bg-neutral-pale-cyan">
+        <section className="pt-32 pb-10 px-6 lg:px-10 bg-hero-mobile sm:bg-hero-desktop bg-cover bg-top bg-neutral-pale-cyan">
             <div className="max-w-lg lg:max-w-[1440px] w-11/12 mx-auto lg:flex lg:items-center lg:justify-between lg:gap-8">
                 <div className="lg:flex-1 text-center lg:text-left lg:w-10/12">
                     <h1 className="font-poppins text-2xl xl:text-4xl text-neutral-dark-cyan  lg:w-10/12">
